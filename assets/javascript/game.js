@@ -8,16 +8,16 @@ var losses = 0;
 $("#currentScore").text(counter);
 //generate random number and assign value to crystal number one
 var randomnum1 = Math.floor(Math.random() * 12) + 1;
-$("#crystalPicOne").attr("data-crystalvalue", randomnum1);
+$("#psychoPicOne").attr("data-crystalvalue", randomnum1);
 
 var randomnum2 = Math.floor(Math.random() * 12) + 1;
-$("#crystalPicTwo").attr("data-crystalvalue", randomnum2);
+$("#psychoPicTwo").attr("data-crystalvalue", randomnum2);
 
 var randomnum3 = Math.floor(Math.random() * 12) + 1;
-$("#crystalPicThree").attr("data-crystalvalue", randomnum3);
+$("#psychoPicThree").attr("data-crystalvalue", randomnum3);
 
 var randomnum4 = Math.floor(Math.random() * 12) + 1;
-$("#crystalPicFour").attr("data-crystalvalue", randomnum4);
+$("#psychoPicFour").attr("data-crystalvalue", randomnum4);
 
 $(".image").on("click", function () {
     var crystalValue = ($(this).attr("data-crystalvalue"));
@@ -40,16 +40,16 @@ $(".image").on("click", function () {
 
         //generate random number and assign value to crystal number one
         randomnum1 = Math.floor(Math.random() * 12) + 1;
-        $("#crystalPicOne").attr("data-crystalvalue", randomnum1);
+        $("#psychoPicOne").attr("data-crystalvalue", randomnum1);
 
         randomnum2 = Math.floor(Math.random() * 12) + 1;
-        $("#crystalPicTwo").attr("data-crystalvalue", randomnum2);
+        $("#psychoPicTwo").attr("data-crystalvalue", randomnum2);
 
         randomnum3 = Math.floor(Math.random() * 12) + 1;
-        $("#crystalPicThree").attr("data-crystalvalue", randomnum3);
+        $("#psychoPicThree").attr("data-crystalvalue", randomnum3);
 
         randomnum4 = Math.floor(Math.random() * 12) + 1;
-        $("#crystalPicFour").attr("data-crystalvalue", randomnum4);
+        $("#psychoPicFour").attr("data-crystalvalue", randomnum4);
     }
 
     else if (counter >= targetNumber) {
@@ -64,16 +64,16 @@ $(".image").on("click", function () {
 
         //generate random number and assign value to crystal number one
         randomnum1 = Math.floor(Math.random() * 12) + 1;
-        $("#crystalPicOne").attr("data-crystalvalue", randomnum1);
+        $("#psychoPicOne").attr("data-crystalvalue", randomnum1);
 
         randomnum2 = Math.floor(Math.random() * 12) + 1;
-        $("#crystalPicTwo").attr("data-crystalvalue", randomnum2);
+        $("#psychoPicTwo").attr("data-crystalvalue", randomnum2);
 
         randomnum3 = Math.floor(Math.random() * 12) + 1;
-        $("#crystalPicThree").attr("data-crystalvalue", randomnum3);
+        $("#psychoPicThree").attr("data-crystalvalue", randomnum3);
 
         randomnum4 = Math.floor(Math.random() * 12) + 1;
-        $("#crystalPicFour").attr("data-crystalvalue", randomnum4);
+        $("#psychoPicFour").attr("data-crystalvalue", randomnum4);
     }
 
 });
