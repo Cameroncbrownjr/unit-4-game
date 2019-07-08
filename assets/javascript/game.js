@@ -7,6 +7,7 @@ var wins = 0;
 var losses = 0;
 $("#currentScore").text(counter);
 //generate random number and assign value to crystal number one
+//new comment
 var randomnum1 = Math.floor(Math.random() * 12) + 1;
 $("#psychoPicOne").attr("data-crystalvalue", randomnum1);
 
